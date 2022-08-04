@@ -137,6 +137,7 @@ GameObject:
   - component: {fileID: 666241094}
   - component: {fileID: 666241093}
   - component: {fileID: 666241092}
+  - component: {fileID: 666241098}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -158,7 +159,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveDir: {x: 0, y: 0, z: 0}
   jumpSpeed: 8
-  speed: 5
+  speed: 20
   gravity: 20
   crouch: 2.5
   walk: 5
@@ -252,13 +253,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 666241091}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 29.77, y: 1, z: 23.2}
+  m_LocalPosition: {x: 500, y: 1, z: 337.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2097736816}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &666241098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 666241091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e815c3e411a633e47a6b7f5acdf99d1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  axis: 0
+  sensitivity: {x: 10, y: 10}
+  minY: -60
+  maxY: 60
+  invert: 0
 --- !u!1 &1112413190
 GameObject:
   m_ObjectHideFlags: 0
@@ -422,7 +440,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2091105015}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -50, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1112413192}
@@ -440,6 +458,7 @@ GameObject:
   - component: {fileID: 2097736816}
   - component: {fileID: 2097736815}
   - component: {fileID: 2097736814}
+  - component: {fileID: 2097736817}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -512,3 +531,20 @@ Transform:
   m_Father: {fileID: 666241097}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2097736817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097736813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e815c3e411a633e47a6b7f5acdf99d1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  axis: 0
+  sensitivity: {x: 5, y: 5}
+  minY: -90
+  maxY: 90
+  invert: 0
