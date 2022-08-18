@@ -26,18 +26,21 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (_charC.isGrounded)
+        if (GameManager.GameManagerInstance.gameState == GameStates.GameState)
         {
-            moveDir = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
-            moveDir = transform.TransformDirection(moveDir);
-            moveDir *= speed;
-
-            if (Input.GetButtonDown("Jump"))
+            if (_charC.isGrounded)
             {
-                moveDir.y = jumpSpeed;
+                moveDir = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+                moveDir = transform.TransformDirection(moveDir);
+                moveDir *= speed;
+
+                if (Input.GetButtonDown("Jump"))
+                {
+                    moveDir.y = jumpSpeed;
+                }
             }
+            moveDir.y -= gravity*Time.deltaTime;
+            _charC.Move(moveDir * Time.deltaTime);
         }
-        moveDir.y -= gravity*Time.deltaTime;
-        _charC.Move(moveDir * Time.deltaTime);
     }
 }
