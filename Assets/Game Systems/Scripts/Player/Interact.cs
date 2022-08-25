@@ -23,6 +23,14 @@ public class Interact : MonoBehaviour
                 //and that hits info is tagged NPC
                 if (_hitInfo.collider.CompareTag("NPC")) //or _hitInfo.collider.tag == "NPC"
                 {
+                    //check if we have the script
+                    if (_hitInfo.collider.GetComponent<DialogueManager>())
+                    {
+                        //show the UI
+                        _hitInfo.collider.GetComponent<DialogueManager>().showDlg = true;
+                        //change game state
+                        GameManager.GameManagerInstance.gameState = GameStates.MenuState;
+                    }
                     //Debug that we hit a NPC
                     Debug.Log("NPC found.");
                 }
