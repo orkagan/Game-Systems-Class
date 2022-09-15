@@ -9,6 +9,7 @@ TagManager:
   - Chest
   - Item
   - Enemy
+  - SFX
   layers:
   - Default
   - TransparentFX

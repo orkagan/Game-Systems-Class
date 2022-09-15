@@ -7,6 +7,13 @@ public class AudioHandler : MonoBehaviour
 {
     public AudioMixer masterAudio;
     private string _slider;
+    public AudioSource audioSFX;
+    public AudioClip[] audioClips;
+
+    private void Start()
+    {
+        audioSFX = GameObject.FindGameObjectWithTag("SFX").GetComponent<AudioSource>();
+    }
 
     public void ChangeVolume(string slider)
     {
@@ -15,5 +22,11 @@ public class AudioHandler : MonoBehaviour
     public void ChangeVolume(float volume)
     {
         masterAudio.SetFloat(_slider, volume);
+    }
+    public void PlayClip()
+    {
+        int clip = Random.Range(0,audioClips.Length);
+        audioSFX.clip = audioClips[clip];
+        audioSFX.Play();
     }
 }
