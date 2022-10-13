@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Game Systems/Scenes/Main Menu.unity
+    path: Assets/Game Systems/Scripts/Saving/PlayerPrefs/Scenes/Main Menu.unity
     guid: 6bb5cab881a6d4b468ab7da799b29dc6
   - enabled: 1
-    path: Assets/Game Systems/Scenes/Custom.unity
+    path: Assets/Game Systems/Scripts/Saving/PlayerPrefs/Scenes/Custom.unity
     guid: 9b83cd3af66d06241980e8cc94c0d455
   - enabled: 1
-    path: Assets/Game Systems/Scenes/Game.unity
+    path: Assets/Game Systems/Scripts/Saving/PlayerPrefs/Scenes/Game.unity
     guid: 6fdb4f0c96ef11640b5370b261ab6d1d
   m_configObjects: {}
