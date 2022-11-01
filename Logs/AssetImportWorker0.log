@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 32492 MB
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 32492 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -15,7 +15,7 @@ C:/Users/Jonathan/Documents/GitHub/Game-Systems-Class
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62296
+59443
 Successfully changed project path to: C:/Users/Jonathan/Documents/GitHub/Game-Systems-Class
 C:/Users/Jonathan/Documents/GitHub/Game-Systems-Class
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Jonathan/Documents/GitHub/Game-Systems-Class
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 18.74 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 21.87 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.8f1 (b30333d56e81)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -63,74 +63,74 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002816 seconds.
+Registered in 0.003103 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 17.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 19.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.376 seconds
+- Completed reload, in  0.388 seconds
 Domain Reload Profiling:
-	ReloadAssembly (376ms)
-		BeginReloadAssembly (42ms)
+	ReloadAssembly (388ms)
+		BeginReloadAssembly (48ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (255ms)
-			LoadAssemblies (41ms)
+		EndReloadAssembly (269ms)
+			LoadAssemblies (47ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (64ms)
+			SetupTypeCache (67ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (133ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (150ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (18ms)
+				RefreshPlugins (20ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (84ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				ProcessInitializeOnLoadAttributes (93ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001689 seconds.
+Registered in 0.002051 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.24 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.508 seconds
+- Completed reload, in  0.570 seconds
 Domain Reload Profiling:
-	ReloadAssembly (508ms)
-		BeginReloadAssembly (63ms)
+	ReloadAssembly (570ms)
+		BeginReloadAssembly (69ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (13ms)
-		EndReloadAssembly (373ms)
-			LoadAssemblies (38ms)
+			CreateAndSetChildDomain (12ms)
+		EndReloadAssembly (426ms)
+			LoadAssemblies (45ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (102ms)
+			SetupTypeCache (117ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (184ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (207ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (32ms)
-				ProcessInitializeOnLoadAttributes (127ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (35ms)
+				ProcessInitializeOnLoadAttributes (142ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
@@ -151,13 +151,13 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1753 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (73.7 KB). Loaded Objects now: 2232.
-Memory consumption went from 87.7 MB to 87.7 MB.
-Total: 2.221800 ms (FindLiveObjects: 0.098300 ms CreateObjectMapping: 0.033900 ms MarkObjects: 1.995700 ms  DeleteObjects: 0.093300 ms)
+Unloading 1754 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (73.7 KB). Loaded Objects now: 2233.
+Memory consumption went from 87.8 MB to 87.7 MB.
+Total: 4.359700 ms (FindLiveObjects: 0.142200 ms CreateObjectMapping: 0.049600 ms MarkObjects: 4.037700 ms  DeleteObjects: 0.128800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -172,29 +172,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 686870.756675 seconds.
-  path: Assets/Game Systems/Art/Animation/Paladin WProp J Nordstrom@Crouch Walking Backwards.fbx
-  artifactKey: Guid(cfea3a6aeb360664a9c1127f2ef97f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game Systems/Art/Animation/Paladin WProp J Nordstrom@Crouch Walking Backwards.fbx using Guid(cfea3a6aeb360664a9c1127f2ef97f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec6c6ce5fb122dc5efbc2b1e85e1afa') in 0.069236 seconds 
+  Time since last request: 5627.734224 seconds.
+  path: Assets/Art/UI/strip2.png
+  artifactKey: Guid(44bcbc99ad2ec9043b1304b14c6e5716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI/strip2.png using Guid(44bcbc99ad2ec9043b1304b14c6e5716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8279da8c1c91c58b8507319c30b03f3c') in 0.114504 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Game Systems/Art/Animation/Paladin WProp J Nordstrom@Crouched Walking.fbx
-  artifactKey: Guid(e9374b07ffd8db24fb5af6652c3d273d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game Systems/Art/Animation/Paladin WProp J Nordstrom@Crouched Walking.fbx using Guid(e9374b07ffd8db24fb5af6652c3d273d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04489325c83815986262bd6cb0b16aa1') in 0.014329 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Game Systems/Art/Animation/Paladin WProp J Nordstrom@Sword And Shield Crouch Idle.fbx
-  artifactKey: Guid(e625c9a0d26fa19408b2b6b116705e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game Systems/Art/Animation/Paladin WProp J Nordstrom@Sword And Shield Crouch Idle.fbx using Guid(e625c9a0d26fa19408b2b6b116705e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a16619986a7eedbdf0fbd9380b4d62') in 0.012469 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Game Systems/Art/Animation/Paladin WProp J Nordstrom@Sword And Shield Walk (1).fbx
-  artifactKey: Guid(910f58f9019c7d849b5aa2eeb047de31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game Systems/Art/Animation/Paladin WProp J Nordstrom@Sword And Shield Walk (1).fbx using Guid(910f58f9019c7d849b5aa2eeb047de31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '237961407df97dbc572441c887da05b2') in 0.013247 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 61.058293 seconds.
+  path: Assets/Art/UI/strip2.png
+  artifactKey: Guid(44bcbc99ad2ec9043b1304b14c6e5716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/UI/strip2.png using Guid(44bcbc99ad2ec9043b1304b14c6e5716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8bce96dcc24cffdb0667c4340f8ed1') in 0.015244 seconds 
