@@ -14,8 +14,8 @@ public class PlayerMovement : MonoBehaviour
     public Animator anim;
 
     [Header("Character Speeds")]
-    public float jumpSpeed = 8f;
-    public float speed = 0f, gravity = 20f, crouch = 2.5f, walk = 5f, run = 10f;
+    public float jumpSpeed = 4f;
+    public float speed = 20f, gravity = 20f, crouch = 2.5f, walk = 5f, run = 10f;
     #endregion
 
     // Start is called before the first frame update
@@ -35,24 +35,31 @@ public class PlayerMovement : MonoBehaviour
                 moveDir = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
                 //inputs to change the speed
                 anim.SetFloat("isCrouched", 0); //jank and stupid place for this lol
-                if (Input.GetButton("Sprint")) speed = run;
-                else if (Input.GetButton("Crouch")) { speed = crouch; anim.SetFloat("isCrouched", 1); }
-                else speed = walk;
+                if (Input.GetButton("Sprint"))
+                {
+                    speed = run;
+                }
+                else if (Input.GetButton("Crouch"))
+                {
+                    speed = crouch;
+                    anim.SetFloat("isCrouched", 1); //if crouched it will override the jank
+                }
+                else
+                {
+                    speed = walk;
+                }
 
                 anim.SetFloat("horizontal", moveDir.x);
-                anim.SetFloat("vertical", moveDir.z);
-                anim.SetFloat("moveSpeed", speed);
-
-                moveDir = transform.TransformDirection(moveDir);
-                moveDir *= speed;
+                anim.SetFloat("vertical", moveDir.y);
+                anim.SetFloat("moveSpeed", _charC.velocity.magnitude);
 
                 if (Input.GetButtonDown("Jump"))
                 {
-                    moveDir.y = jumpSpeed;
+                    moveDir.y += jumpSpeed;
                 }
             }
             moveDir.y -= gravity*Time.deltaTime;
-            _charC.Move(moveDir * Time.deltaTime);
+            _charC.Move(transform.TransformDirection(moveDir) * speed * Time.deltaTime);
         }
     }
 }

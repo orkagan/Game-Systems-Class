@@ -15,7 +15,7 @@ C:/Users/Jonathan/Documents/GitHub/Game-Systems-Class
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59443
+59003
 Successfully changed project path to: C:/Users/Jonathan/Documents/GitHub/Game-Systems-Class
 C:/Users/Jonathan/Documents/GitHub/Game-Systems-Class
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Jonathan/Documents/GitHub/Game-Systems-Class
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 21.87 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 20.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.8f1 (b30333d56e81)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -63,77 +63,77 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56816
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003103 seconds.
+Registered in 0.002511 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 19.63 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 18.75 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.388 seconds
+- Completed reload, in  0.360 seconds
 Domain Reload Profiling:
-	ReloadAssembly (388ms)
-		BeginReloadAssembly (48ms)
+	ReloadAssembly (361ms)
+		BeginReloadAssembly (42ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (269ms)
-			LoadAssemblies (47ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (252ms)
+			LoadAssemblies (41ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (67ms)
+			SetupTypeCache (61ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (150ms)
+			RebuildScriptCaches (17ms)
+			SetupLoadedEditorAssemblies (141ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (20ms)
+				RefreshPlugins (19ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (93ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002051 seconds.
+Registered in 0.001742 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.570 seconds
+- Completed reload, in  0.531 seconds
 Domain Reload Profiling:
-	ReloadAssembly (570ms)
-		BeginReloadAssembly (69ms)
+	ReloadAssembly (532ms)
+		BeginReloadAssembly (66ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (12ms)
-		EndReloadAssembly (426ms)
-			LoadAssemblies (45ms)
+		EndReloadAssembly (394ms)
+			LoadAssemblies (42ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (117ms)
+			SetupTypeCache (106ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (207ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (196ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (35ms)
-				ProcessInitializeOnLoadAttributes (142ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (33ms)
+				ProcessInitializeOnLoadAttributes (138ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -152,12 +152,12 @@ WARNING: Shader Unsupported: 'Toon/Lighted Outline' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1754 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 20 unused Assets / (73.7 KB). Loaded Objects now: 2233.
 Memory consumption went from 87.8 MB to 87.7 MB.
-Total: 4.359700 ms (FindLiveObjects: 0.142200 ms CreateObjectMapping: 0.049600 ms MarkObjects: 4.037700 ms  DeleteObjects: 0.128800 ms)
+Total: 2.241000 ms (FindLiveObjects: 0.098800 ms CreateObjectMapping: 0.027700 ms MarkObjects: 2.026500 ms  DeleteObjects: 0.087500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -172,13 +172,137 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 5627.734224 seconds.
-  path: Assets/Art/UI/strip2.png
-  artifactKey: Guid(44bcbc99ad2ec9043b1304b14c6e5716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UI/strip2.png using Guid(44bcbc99ad2ec9043b1304b14c6e5716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8279da8c1c91c58b8507319c30b03f3c') in 0.114504 seconds 
+  Time since last request: 2238.576565 seconds.
+  path: Assets/Game Systems/Art/Warrior Babe
+  artifactKey: Guid(45672e4b9001d9c43974c69d8a9fd7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems/Art/Warrior Babe using Guid(45672e4b9001d9c43974c69d8a9fd7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc4493e61792193c0ae59b8f5420adfb') in 0.005941 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 61.058293 seconds.
-  path: Assets/Art/UI/strip2.png
-  artifactKey: Guid(44bcbc99ad2ec9043b1304b14c6e5716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UI/strip2.png using Guid(44bcbc99ad2ec9043b1304b14c6e5716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8bce96dcc24cffdb0667c4340f8ed1') in 0.015244 seconds 
+  Time since last request: 87.109300 seconds.
+  path: Assets/Game Systems/Art/Art/Enemies
+  artifactKey: Guid(1a703b28c19fbcb4fb67d209992cbc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems/Art/Art/Enemies using Guid(1a703b28c19fbcb4fb67d209992cbc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7857cb62e16cebd5923e0ed5304953ed') in 0.013632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 230.311498 seconds.
+  path: Assets/Game Systems/Art/Warrior Babe/Warrior.FBX
+  artifactKey: Guid(bb4869134cdeb1a46a892fa49741c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems/Art/Warrior Babe/Warrior.FBX using Guid(bb4869134cdeb1a46a892fa49741c448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84bb672440fe09ea0f475c48165de6c') in 0.176271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.801302 seconds.
+  path: Assets/Game Systems/Art/Warrior Babe/Character
+  artifactKey: Guid(7158933a11d22eb4d87ab4edd7f88550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems/Art/Warrior Babe/Character using Guid(7158933a11d22eb4d87ab4edd7f88550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a379edd843614c1debbcf64d550296a8') in 0.012016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.060498 seconds.
+  path: Assets/Game Systems/Art/Warrior Babe/Character/Armour_0.png
+  artifactKey: Guid(1676ebcf43924294db6d14a24fc81ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems/Art/Warrior Babe/Character/Armour_0.png using Guid(1676ebcf43924294db6d14a24fc81ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a2ab2d05311a0f297c2463a69f4240') in 0.040140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017737 seconds.
+  path: Assets/Game Systems/Art/Warrior Babe/Character/Armour_6.png
+  artifactKey: Guid(2368aa9cea7284542a8a474a193a52f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems/Art/Warrior Babe/Character/Armour_6.png using Guid(2368aa9cea7284542a8a474a193a52f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3afdcb9bc37bb801bdab2e4ed879e1') in 0.025204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Game Systems/Art/Warrior Babe/Character/Clothes_7.png
+  artifactKey: Guid(62cc1cb7350d06b45b332bc66794b109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems/Art/Warrior Babe/Character/Clothes_7.png using Guid(62cc1cb7350d06b45b332bc66794b109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b91456a2c34236fb9f5f2fa387834f4') in 0.021881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Game Systems/Art/Warrior Babe/Character/Eyes_1.png
+  artifactKey: Guid(6af64026ceeb8e949a1ba72f19f0fe88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems/Art/Warrior Babe/Character/Eyes_1.png using Guid(6af64026ceeb8e949a1ba72f19f0fe88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '379ed82bae3e13c9b6512e2de0836350') in 0.019204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Game Systems/Art/Warrior Babe/Character/Hair_2.png
+  artifactKey: Guid(3dc3edda223eafc49a878d01593570e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems/Art/Warrior Babe/Character/Hair_2.png using Guid(3dc3edda223eafc49a878d01593570e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a9dc8a6dc3f23644619b6d3ce82771d') in 0.016769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Game Systems/Art/Warrior Babe/Character/Clothes_9.png
+  artifactKey: Guid(120343a9b1fc99445a85b6abd04d7655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems/Art/Warrior Babe/Character/Clothes_9.png using Guid(120343a9b1fc99445a85b6abd04d7655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d864e13da841548ac8f5ffa0e3225c5') in 0.021315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Game Systems/Art/Warrior Babe/Character/Clothes_5.png
+  artifactKey: Guid(bd1a825b849b4c54bb65321a987508ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems/Art/Warrior Babe/Character/Clothes_5.png using Guid(bd1a825b849b4c54bb65321a987508ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19fc2b4e0f1b49400d1aac72af4e9597') in 0.020870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Game Systems/Art/Warrior Babe/Character/Hair_4.png
+  artifactKey: Guid(93f077b15822b0646953506f5c92bacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems/Art/Warrior Babe/Character/Hair_4.png using Guid(93f077b15822b0646953506f5c92bacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd0d9836ec441948e921562d6526a04d') in 0.013581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Game Systems/Art/Warrior Babe/Character/Clothes_6.png
+  artifactKey: Guid(34b4efa0af3f3104caa1df4dfef73f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems/Art/Warrior Babe/Character/Clothes_6.png using Guid(34b4efa0af3f3104caa1df4dfef73f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f446316b2615f8ad41f854a994651b8') in 0.016346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Game Systems/Art/Warrior Babe/Character/Skin_2.png
+  artifactKey: Guid(ed2e1d63bfd2bed419d761fcfbc73437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems/Art/Warrior Babe/Character/Skin_2.png using Guid(ed2e1d63bfd2bed419d761fcfbc73437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e75ada5e566235d3b27407413f44995') in 0.018133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Game Systems/Art/Warrior Babe/Character/Skin_1.png
+  artifactKey: Guid(a29edefd0c3948b4ca3be9f8c4d1b241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems/Art/Warrior Babe/Character/Skin_1.png using Guid(a29edefd0c3948b4ca3be9f8c4d1b241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '409bb8158ebde00d0c7968dd9a63cfb1') in 0.016286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Game Systems/Art/Warrior Babe/Character/Hair_3.png
+  artifactKey: Guid(a043bbca9d82d84429798268e27c90d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems/Art/Warrior Babe/Character/Hair_3.png using Guid(a043bbca9d82d84429798268e27c90d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d5c2cef906dfe62040f975156ca7c4') in 0.019761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Game Systems/Art/Warrior Babe/Character/Armour_4.png
+  artifactKey: Guid(e3c69fe2e7d0e04418062b87e7d02ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems/Art/Warrior Babe/Character/Armour_4.png using Guid(e3c69fe2e7d0e04418062b87e7d02ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec3b10a82692e488e93f77fd005fdabd') in 0.019426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Game Systems/Art/Warrior Babe/Character/Hair_0.png
+  artifactKey: Guid(c1dd0e67e99ef384f99bbb321787b3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems/Art/Warrior Babe/Character/Hair_0.png using Guid(c1dd0e67e99ef384f99bbb321787b3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5739fa4e943add5492e54459903c1ca') in 0.026245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Game Systems/Art/Warrior Babe/Character/Armour_2.png
+  artifactKey: Guid(99398b6a143d7cd4691a8e0bc9b0054d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems/Art/Warrior Babe/Character/Armour_2.png using Guid(99398b6a143d7cd4691a8e0bc9b0054d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7d6970c5d0abd6110499ae9e84a9b9') in 0.021196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Game Systems/Art/Warrior Babe/Character/Armour_3.png
+  artifactKey: Guid(0c3819ec10d2eed429dfb9b2cd7a4dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems/Art/Warrior Babe/Character/Armour_3.png using Guid(0c3819ec10d2eed429dfb9b2cd7a4dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553dffee3ab71ef664ee259e4e4a5d47') in 0.023489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Game Systems/Art/Warrior Babe/Character/Armour_8.png
+  artifactKey: Guid(fb69b2c27b2b2314783afa61aba24656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems/Art/Warrior Babe/Character/Armour_8.png using Guid(fb69b2c27b2b2314783afa61aba24656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3fece50458a7ac30f277a341ad6db9') in 0.024903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Game Systems/Art/Warrior Babe/Character/Eyes_2.png
+  artifactKey: Guid(fa1ae8960feb1374198e9d431ab6483e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Systems/Art/Warrior Babe/Character/Eyes_2.png using Guid(fa1ae8960feb1374198e9d431ab6483e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ff1dec4671ce92088d7c52a041d9db') in 0.024663 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
